@@ -8,7 +8,11 @@ const app = Vue.createApp({
 
 }).mount('#app');
 
-const app1 = Vue.createApp({
+setTimeout(() => {
+    app.lastname = 'Aiman'
+}, 2000)
+
+/* const app1 = Vue.createApp({
     data() {
         return {
             firstname : "Aiman",
@@ -16,4 +20,4 @@ const app1 = Vue.createApp({
         }
     },
 
-}).mount('#app1');
+}).mount('#app1'); */
