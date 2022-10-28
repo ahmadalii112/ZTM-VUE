@@ -1,1 +1,6 @@
-const app = Vue.createApp({}).mount('#app');
+var app = new Vue({
+    el: '#app',
+    data: {
+      firstName: 'Ahmad'
+    }
+  })
