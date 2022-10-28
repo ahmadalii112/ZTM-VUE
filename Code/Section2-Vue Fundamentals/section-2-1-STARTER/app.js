@@ -7,3 +7,13 @@ const app = Vue.createApp({
     },
 
 }).mount('#app');
+
+const app1 = Vue.createApp({
+    data() {
+        return {
+            firstname : "Aiman",
+            lastname : "Jehanzaib",
+        }
+    },
+
+}).mount('#app1');
