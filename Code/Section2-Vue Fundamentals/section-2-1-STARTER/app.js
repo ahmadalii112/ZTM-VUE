@@ -8,9 +8,10 @@ const app = Vue.createApp({
 
 }).mount('#app');
 
-setTimeout(() => {
-    app.lastname = 'Aiman'
-}, 2000)
+// Proxy console.log(app); 
+// setTimeout(() => {
+//     app.lastname = 'Aiman'
+// }, 2000)
 
 /* const app1 = Vue.createApp({
     data() {
