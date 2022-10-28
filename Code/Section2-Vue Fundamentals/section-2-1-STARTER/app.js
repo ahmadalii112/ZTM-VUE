@@ -1,4 +1,4 @@
-
+const lastname = 'ALi';
 const app = Vue.createApp({
     data() {
         return {
